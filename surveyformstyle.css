@@ -1,0 +1,65 @@
+body{
+    background-color: gainsboro;
+}
+#title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+#description{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+
+}
+#survey{
+    background-color: rgb(175, 43, 158);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px; 
+
+
+}
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+    margin: 0 auto 1.25rem auto;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-top: 10px;
+}
+input,select,textarea{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="radio"],input[type="checkbox"]
+{
+    height: 20px;
+    margin-left: 20px;
+    width: 10%;
+}
+.formradio,.formcheckbox{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+textarea{
+    width: 90%;
+    font-size: 16px;
+    height: 100px;
+}
+input[type="submit"]
+{
+    background-color: green;
+    margin-bottom: 50px;
+}
